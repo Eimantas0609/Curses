@@ -1,13 +1,13 @@
-import { Outlet } from 'react-router-dom'
-import Menu from '../Components/Menu'
+import { Outlet } from "react-router-dom";
+import Menu from "../components/Menu";
 
-function MainLayout() {
-  return (
-  <>
-  <Menu/>
-    <Outlet/>
-  </>
-  )
-}
+const MainLayout = () => {
+	return (
+		<>
+			<Menu />
+			<Outlet />
+		</>
+	);
+};
 
-export default MainLayout
+export default MainLayout;
